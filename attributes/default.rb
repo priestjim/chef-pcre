@@ -18,7 +18,7 @@
 #
 
 default['pcre']['version']      = '8.34'
-default['pcre']['url']          = "http://sourceforge.net/projects/pcre/files/pcre/#{node['pcre']['version']}/pcre-#{node['pcre']['version']}.tar.bz2/download"
+default['pcre']['url']          = "http://downloads.sourceforge.net/project/pcre/pcre/#{node['pcre']['version']}/pcre-#{node['pcre']['version']}.tar.bz2"
 default['pcre']['checksum']     = 'b6043ae1ff2720be665ffa28dc22b7c637cdde96f389a116c0c3020caeae583f'
 default['pcre']['prefix']       = '/opt'
 
