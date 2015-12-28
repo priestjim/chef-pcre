@@ -17,9 +17,9 @@
 # limitations under the License.
 #
 
-default['pcre']['version']      = '8.35'
+default['pcre']['version']      = '8.38'
 default['pcre']['url']          = "http://downloads.sourceforge.net/project/pcre/pcre/#{node['pcre']['version']}/pcre-#{node['pcre']['version']}.tar.bz2"
-default['pcre']['checksum']     = 'a961c1c78befef263cc130756eeca7b674b4e73a81533293df44e4265236865b'
+default['pcre']['checksum']     = 'b9e02d36e23024d6c02a2e5b25204b3a4fa6ade43e0a5f869f254f49535079df'
 default['pcre']['prefix']       = '/opt'
 
 default['pcre']['add_ldconfig'] = false
